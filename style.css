@@ -1,0 +1,29 @@
+body {
+  height: 100%;
+  background-image: linear-gradient(#ffb5b5, #ffe7e7);
+}
+
+/* again, I copied the code along exacltty and my gradient is not working the same as in the video, even went back to make sure my HTML and CSS were the same - I changed 100vh to 100% and this seemed to fix the problem */
+
+.row{
+  margin: 4vh 0;
+}
+
+input{
+  height: 40px;
+  text-align: center;
+}
+
+textarea{
+  width: 80%;
+  height: 120px;
+}
+
+textarea::placeholder {
+  text-align: center;
+  line-height: 60px;
+}
+
+label{
+  text-align: center;
+}
